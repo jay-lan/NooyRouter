@@ -1,0 +1,16 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':RouterAnnotation')
+    compile 'com.squareup:javapoet:1.9.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
+repositories {
+    mavenCentral()
+}
+

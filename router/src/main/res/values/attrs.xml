@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RouteView">
+        <attr name="path" format="string"/>
+        <attr name="in_animation" format="string"/>
+        <attr name="out_animation" format="string"/>
+        <attr name="anim_duration" format="integer"/>
+        <attr name="show_animation" format="boolean"/>
+        <attr name="setup_with_animation" format="boolean"/>
+    </declare-styleable>
+</resources>
